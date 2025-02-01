@@ -1,0 +1,75 @@
+/* Use your provided container styling */
+.dashboard { 
+    margin-top: 5rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden; /* Ensures no scrolling */
+  }
+
+  .upperBody{
+    display: flex;
+    height: 50%;
+    gap: 1rem
+  }
+
+  .lowerBody{
+    height: 50%;
+  }
+  
+  /* Dashboard Cards Section */
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 60%;
+  }
+  
+  .dashboard-card {
+    background: rgba(255, 255, 255, 0.8);  /* Semi-transparent background */
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Company Growth / Chart Section */
+  .dashboard-chart {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   width: 36%;
+  }
+  
+  /* User Management Table Section */
+  .dashboard-table {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Remaining space for the table */
+    flex: 1;
+    overflow: scroll;
+  }
+  
+  .dashboard-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem; /* Adjust as necessary to fit content */
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background: #f3f3f3;
+  }
+  
