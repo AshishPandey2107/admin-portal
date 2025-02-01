@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    top: 1rem;
+    left: 17rem;
+    right: 3rem;
+    height: 2rem;
+    background-color: transparent;
+  }
+  
+  .navbar-search {
+    width: 192px;
+    padding: 6px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    outline: none;
+    background-color: lightcoral;
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-icon {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+    margin-right: 3rem;
+  }
+  
+  .navbar-profile {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

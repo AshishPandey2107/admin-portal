@@ -6,3 +6,13 @@ body {
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
 }
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  margin-left: 13rem; /* Adjust based on Sidebar width */
+  padding-top: 60px; /* To prevent Navbar from overlapping */
+}
