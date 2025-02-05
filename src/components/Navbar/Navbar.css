@@ -4,13 +4,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 2px;
-    position: fixed;
-    top: 1rem;
-    left: 18.5rem;
-    right: 3rem;
+    /* position: fixed; */
+    /* top: 1rem; */
+    /* left: 18.5rem; */
+    /* right: 3rem; */
     height: 2rem;
     background-color: transparent;
     border-bottom: 1px solid white;
+    margin-bottom: 1rem;
   }
 
   .navbar-search-container{

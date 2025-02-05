@@ -7,11 +7,20 @@ import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div className="flex">
+    <div className="flex" style={{
+      // border: "1px solid black",
+      position: "fixed",
+      display: "flex",
+      top: "5%",
+      bottom: "5%",
+      left: "10%",
+      right: "10%",
+      gap: "1rem"}}>
       <Sidebar />
-      <div className="flex-1 p-6">
+      <div className="flex-1 p-6" style={{width:"-webkit-fill-available"}}>
       <Navbar />
         <Routes>
+        <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
           {/* <Route path="/users" element={<Users />} /> */}
           {/* <Route path="/bookings" element={<Bookings />} /> */}

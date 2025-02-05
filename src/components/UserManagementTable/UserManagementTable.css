@@ -1,0 +1,58 @@
+.user-management-table {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+
+  .chart-header {
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    padding: 2px;
+    display: flex;
+  }
+  
+  .user-management-table h3 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  .user-management-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-management-table th,
+  .user-management-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+  }
+  
+  .user-management-table th {
+    background: #f3f3f3;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .user-management-table tr:hover {
+    background: #f9f9f9;
+  }
+  
+  .user-management-table .actions button {
+    background: transparent;
+    border: none;
+    color: #199FB1;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .user-management-table .actions button:hover {
+    text-decoration: underline;
+  }
+  

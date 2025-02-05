@@ -36,7 +36,9 @@ const Sidebar = () => {
       <nav className="sidebar-nav">
         {menuItems.map((item, index) => (
           <div key={item.name} className="sidebar-item">
-            <NavLink to={item.path} className="sidebar-link">
+            <NavLink to={item.path} 
+            // className="sidebar-link"
+            className={({ isActive }) => `sidebar-link ${isActive ? "active" : ""}`}>
               {item.name}
             </NavLink>
             {index !== menuItems.length - 1 && <hr className="sidebar-divider" />}
